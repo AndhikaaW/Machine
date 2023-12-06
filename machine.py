@@ -2,7 +2,6 @@ import pickle
 import streamlit as st
 import pandas as pd
 import numpy as np
-from playsound import playsound
 
 page = st.sidebar.selectbox('Select Page',['Home','Grafik','Prediction','About'])
 st.sidebar.caption('Andhika Wahyu Agustian')
@@ -81,7 +80,3 @@ elif page=='About':
     st.title('by Kelompok 3')
     st.markdown('Kurang lebihnya mohon maaf')
     st.balloons()
-
-    audio_file='akhirnya.mp3'
-    st.audio(playsound(audio_file))
-    
