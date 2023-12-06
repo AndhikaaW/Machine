@@ -3,4 +3,4 @@ numpy
 matplotlib
 scikit-learn
 streamlit
-playsound
+from playsound
