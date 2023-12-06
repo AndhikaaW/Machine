@@ -14,7 +14,7 @@ st.sidebar.caption('223307092')
 model = pickle.load(open('model_prediksi_type_mesin.sav', 'rb'))
 
 if page=='Home':
-    st.title('Prediksi type Mesin')
+    st.title('Prediksi torsi Mesin')
     st.image('mesin.jpg',width=400)
     st.header('Dataset')
     df1 = pd.read_csv('PrediksiMesin.csv')
