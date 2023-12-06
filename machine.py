@@ -78,7 +78,7 @@ elif page=='Prediction':
         st.write('maka torsi mesin yang dihasilkan : ')
         st.success(torsi_machine_formatted)
 elif page=='About':
-    st.title('by Kelompok 4')
+    st.title('by Kelompok 3')
     st.markdown('Kurang lebihnya mohon maaf')
     st.balloons()
 
